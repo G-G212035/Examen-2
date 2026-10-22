@@ -83,14 +83,14 @@ namespace E2
             }
             bool Resultado2 = CalcularMultiplo(5);
             Console.WriteLine($"El resultado de si es multiplo o no es {Resultado2}");
-            
+
             // Problema 5
-            void Progra ()
+            void Progra (string materia)
             {
-                string Datos = "Programacion III";
-                Console.WriteLine($"Examen: {Datos}");
+                
+                Console.WriteLine($"Examen: {materia}");
             }
-            Progra();
+            Progra("Programacion III");
         }
     }
 }
